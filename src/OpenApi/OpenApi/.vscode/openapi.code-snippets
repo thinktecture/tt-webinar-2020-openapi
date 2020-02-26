@@ -90,7 +90,7 @@
 		"body": [
 			"foreach (var apiVersion in ApiVersions)",
 			"{",
-			"\tc.SwaggerEndpoint($\"/swagger/v{version}/swagger.json\", $\"OpenAPI Sample API v{version}\");",
+			"\tc.SwaggerEndpoint($\"/swagger/v{apiVersion}/swagger.json\", $\"OpenAPI Sample API v{apiVersion}\");",
 			"}"
 		]
 	},
