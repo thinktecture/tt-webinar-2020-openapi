@@ -59,7 +59,7 @@
 						},
 						{
 							"key": "client_id",
-							"value": "client",
+							"value": "m2m",
 							"type": "text"
 						},
 						{
